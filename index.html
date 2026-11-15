@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniVibe | Find Your People</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home"><span>U</span> UniVibe<b>.</b></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a><a href="#features">Features</a><a href="#interests">Interests</a>
+      <a href="#events">Campus Events</a><a class="nav-button" href="#login">Login</a>
+      <a class="nav-button primary" href="#register">Join UniVibe ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">YOUR CAMPUS · YOUR PEOPLE · YOUR VIBE</span>
+        <h1>Find friends who share <em>your interests.</em></h1>
+        <p>Meet students who love the same things you do. Discover people through technology, music, sports, creativity and more.</p>
+        <div class="actions"><a class="button" href="#register">Find your people ↗</a><a class="button secondary" href="#features">Explore features</a></div>
+        <div class="stats"><div><strong>01</strong><small>Choose your interests</small></div><div><strong>02</strong><small>Discover students</small></div><div><strong>03</strong><small>Make connections</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of students and shared interests">
+        <div class="float-tag tag-one">💻 Coding</div><div class="float-tag tag-two">🎵 Music</div><div class="float-tag tag-three">⚽ Sports</div>
+        <div class="hero-card"><div class="avatars">👩🏻‍💻　👨🏽‍🎨　👩🏾‍🎤</div><span class="eyebrow">SHARED INTERESTS</span><h2>Real friendships start with something in common.</h2><p>Choose what you love. Find students who love it too.</p><div class="progress"><span></span></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="section-heading"><span class="eyebrow">YOUR VIBE, YOUR PEOPLE</span><h2>What are you <em>into?</em></h2><p>Select the interests you want to make friends around. You can choose more than one.</p></div>
+      <div class="interest-grid" id="interestGrid">
+        <button class="interest-chip">💻 Technology & Coding</button><button class="interest-chip">🤖 Artificial Intelligence</button>
+        <button class="interest-chip">🏆 Hackathons</button><button class="interest-chip">⚽ Sports & Fitness</button>
+        <button class="interest-chip">🎵 Music & Dance</button><button class="interest-chip">📸 Photography</button>
+        <button class="interest-chip">🎮 Gaming</button><button class="interest-chip">🎬 Movies & Entertainment</button>
+        <button class="interest-chip">🚀 Entrepreneurship</button><button class="interest-chip">✈️ Travel & Adventure</button>
+        <button class="interest-chip">📚 Reading</button><button class="interest-chip">🎨 Design & Creativity</button>
+        <button class="interest-chip">🤝 Volunteering</button><button class="interest-chip">🍳 Food & Cooking</button>
+      </div>
+      <p class="selection-count" id="selectionCount">0 interests selected</p>
+      <div class="center"><a class="button" href="#register">Create your profile ↗</a></div>
+    </section>
+
+    <section class="section feature-section" id="features">
+      <div class="section-heading"><span class="eyebrow">WHAT YOU CAN DO</span><h2>One campus. <em>Many ways to connect.</em></h2><p>Everything you need to make campus life more social.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">💜</div><h3>Interest matching</h3><p>Choose your interests and discover students who share your passions.</p></article>
+        <article class="feature-card"><div class="feature-icon">🧑‍🤝‍🧑</div><h3>Student discovery</h3><p>Explore student profiles and find people from different courses.</p></article>
+        <article class="feature-card"><div class="feature-icon">💬</div><h3>Messaging</h3><p>Start conversations and build friendships with other students.</p></article>
+        <article class="feature-card"><div class="feature-icon">🧩</div><h3>Communities</h3><p>Join groups built around technology, sports, art and more.</p></article>
+        <article class="feature-card"><div class="feature-icon">🎟️</div><h3>Campus events</h3><p>Explore workshops, hackathons, cultural events and sports.</p></article>
+        <article class="feature-card"><div class="feature-icon">🎓</div><h3>Student profile</h3><p>Share your course, year, bio and interests with the community.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="events">
+      <div class="section-heading"><span class="eyebrow">CAMPUS HAPPENINGS</span><h2>Explore what's <em>coming up.</em></h2><p>Example event cards for the UniVibe project. Confirm dates and venues through official university announcements.</p></div>
+      <div class="event-grid">
+        <article class="event-card"><span class="event-category">HACKATHON</span><h3>Campus CodeSprint</h3><p>A sample team coding challenge for students interested in building creative solutions.</p><small>📍 Innovation Lab · Sample venue</small><small>🗓 Sample date: 5 December 2026</small><span class="demo-label">DEMO EVENT – VERIFY DETAILS</span></article>
+        <article class="event-card"><span class="event-category">WORKSHOP</span><h3>AI & Future Tech</h3><p>A sample workshop exploring artificial intelligence, software and emerging technologies.</p><small>📍 Academic Block · Venue to be confirmed</small><small>🗓 Sample date: 10 December 2026</small><span class="demo-label">DEMO EVENT – VERIFY DETAILS</span></article>
+        <article class="event-card"><span class="event-category">SPORTS</span><h3>Inter-Department Sports Meet</h3><p>A sample sports event featuring team games and individual competitions.</p><small>📍 University Sports Ground</small><small>🗓 Sample date: 14 December 2026</small><span class="demo-label">DEMO EVENT – VERIFY DETAILS</span></article>
+        <article class="event-card"><span class="event-category">CULTURAL</span><h3>Campus Cultural Evening</h3><p>A sample evening celebrating music, dance and student performances.</p><small>📍 Open Air Theatre · Sample venue</small><small>🗓 Sample date: 18 December 2026</small><span class="demo-label">DEMO EVENT – VERIFY DETAILS</span></article>
+        <article class="event-card"><span class="event-category">ENTREPRENEURSHIP</span><h3>Startup Ideas Meetup</h3><p>A sample networking event for students interested in startups and innovation.</p><small>📍 Student Activity Centre · Sample venue</small><small>🗓 Sample date: 21 December 2026</small><span class="demo-label">DEMO EVENT – VERIFY DETAILS</span></article>
+      </div>
+    </section>
+
+    <section class="auth-section" id="login-register">
+      <div class="section-heading"><span class="eyebrow">GET STARTED</span><h2>Your people are <em>waiting.</em></h2><p>This front-end demo shows the login and registration interface. Connect it to your Flask backend for real accounts.</p></div>
+      <div class="auth-grid">
+        <form class="auth-card" id="login">
+          <h3>Welcome back</h3><label>Username<input name="username" placeholder="Enter your username" required></label>
+          <label>Password<input type="password" name="password" placeholder="Enter your password" required></label>
+          <button class="button full" type="submit">Login ↗</button><p class="form-note">Demo form only – backend connection required.</p>
+        </form>
+        <form class="auth-card" id="register">
+          <h3>Create your account</h3><label>Full name<input name="name" placeholder="Your full name" required></label>
+          <label>Username<input name="newUsername" placeholder="Choose a username" required></label>
+          <label>Password<input type="password" name="newPassword" minlength="8" placeholder="At least 8 characters" required></label>
+          <button class="button full" type="submit">Join UniVibe ↗</button><p class="form-note">Choose interests above, then connect this form to your backend.</p>
+        </form>
+      </div>
+      <p class="demo-message" id="demoMessage" role="status"></p>
+    </section>
+    <section class="cta"><h2>Your next best friend could be one shared interest away.</h2><a class="button light" href="#register">Join UniVibe</a></section>
+  </main>
+  <footer><a class="logo footer-logo" href="#home"><span>U</span> UniVibe<b>.</b></a><p>Your campus. Your people. Your vibe.</p><small>© 2026 UniVibe · Student project demo</small></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
